@@ -1,10 +1,11 @@
 body{
     margin: 0;
+    font-family: Roboto, Helvetica, sans-serif;
 }
 
 .header{
     display: flex;
-    padding: 10px 10vw;
+    padding: 20px 15%;
     justify-content: space-between;
     background-color: #1F2937;
 }
@@ -33,14 +34,14 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 60px;
+    gap: 140px;
     height: 60vh;
     background-color: #1F2937;
-    padding: 50px;
+    /* padding: 50px; */
 }
 
 .hero-text{
-    max-width: 400px;
+    max-width: 450px;
     max-height: 250px;
 }
 .hero-text h1{
@@ -67,11 +68,12 @@ body{
 
 .hero-text button{
     border-radius: 8px;
-    padding: 8px 16px;
+    padding: 8px 28px;
     background-color: #3882F6;
+    font-weight: 800;
     border: none;
     color: white;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .random-info{
@@ -96,7 +98,7 @@ body{
 }
 
 .random-items{
-    width: 250px;
+    max-width: 250px;
 }
 
 .random-items img{
@@ -123,4 +125,50 @@ body{
     font-weight: 800;
     text-align: right;
     font-size: 22px;
+}
+
+.sign-up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    color:#E5E7EB;
+}
+
+.signup-banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    width: 70%;
+    height: 40%;
+    gap: 8px;
+}
+
+.signup-banner h3{
+    margin: 0;
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.signup-banner button{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 16px;
+    font-weight: 600;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 6px 28px;
+}
+
+.footer{
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
 }
